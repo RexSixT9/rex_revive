@@ -17,7 +17,3 @@ Players can self-revive using a keybind, and admins can revive or respawn player
    ensure rx_revive
    
 4. Configure options in client.lua and server.lua as needed (revive time, permissions, etc.)
-
-Dependencies
-ox_lib
-qbx_core
