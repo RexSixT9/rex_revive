@@ -29,7 +29,7 @@ if allowReviveCommand then
             return
         end
 
-        TriggerClientEvent("rxrevive:revivePlayerClient", targetId)
+        TriggerClientEvent("rexrevive:revivePlayerClient", targetId)
         TriggerClientEvent('ox_lib:notify', src, {
             title = 'Revive Successful',
             description = ('Player [%d] revived.'):format(targetId),
@@ -64,7 +64,7 @@ RegisterCommand("respawn", function(source, args)
     end
 
     local coords = { x = 226.0371, y = -854.9874, z = 29.9661, heading = 344.3221 }
-    TriggerClientEvent("rxrevive:respawn", targetId, coords)
+    TriggerClientEvent("rexrevive:respawn", targetId, coords)
 
     TriggerClientEvent('ox_lib:notify', src, {
         title = 'Respawn',
