@@ -33,11 +33,11 @@ function respawnPed(coords)
     end
 end
 
-RegisterNetEvent('rxrevive:respawn', function(coords)
+RegisterNetEvent('rexrevive:respawn', function(coords)
     respawnPed(coords)
 end)
 
-RegisterNetEvent("rxrevive:revivePlayerClient", function()
+RegisterNetEvent("rexrevive:revivePlayerClient", function()
     local ped = PlayerPedId()
     revivePed(ped)
     notificationShown = false
